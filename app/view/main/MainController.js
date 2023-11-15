@@ -29,4 +29,8 @@ Ext.define('MyApp.view.main.MainController', {
         Ext.Msg.confirm('Confirm', 'Are you sure?', 'onConfirm', this);
         // ...
     },
+    onReloadButtonClick: function(){
+        Ext.Msg.confirm('Confirm', 'Are you sure?', 'onConfirm', this);
+        // ...
+    },
 });
